@@ -8,11 +8,6 @@ menu.onclick = () => {
     navbar.classList.toggle('active');
 }
 
-window.onscroll = () => {
-    menu.classList.toggle('bx-x');
-    navbar.classList.toggle('active');
-}
-
 // Typing Text Animation
 
 const typed = new Typed('.multiple-text', {
